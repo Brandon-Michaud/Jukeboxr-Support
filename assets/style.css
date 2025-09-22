@@ -1,0 +1,18 @@
+/* Basic, clean styling suitable for GitHub Pages */
+:root { --maxw: 860px; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; }
+header { background: #111; color: #fff; padding: 24px 16px; }
+header h1 { margin: 0; font-size: 28px; }
+nav a { color: #fff; opacity: .9; margin-right: 16px; text-decoration: none; }
+nav a:hover { opacity: 1; text-decoration: underline; }
+main { max-width: var(--maxw); margin: 0 auto; padding: 24px 16px; }
+section { margin: 24px 0; }
+h2 { margin-top: 32px; }
+code, pre { background: #f6f8fa; padding: 2px 6px; border-radius: 6px; }
+footer { max-width: var(--maxw); margin: 0 auto; padding: 24px 16px; color: #666; font-size: 14px; }
+.badge { display: inline-block; padding: 4px 8px; border-radius: 999px; background: #eee; margin-right: 6px; font-size: 12px; }
+ul { padding-left: 20px; }
+.callout { border-left: 4px solid #111; padding: 12px 16px; background: #f6f8fa; border-radius: 6px; }
+.btn { display: inline-block; border: 1px solid #111; padding: 8px 14px; border-radius: 999px; text-decoration: none; color: #111; }
+.btn:hover { background: #111; color: #fff; }
